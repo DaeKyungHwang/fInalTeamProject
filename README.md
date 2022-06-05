@@ -1,5 +1,6 @@
 설치 방법: setup파일->release파일->.msi파일->설치
 
+https://youtu.be/qvQp93C89yM
 
 -CAU런-
 후문으로 가는 길에 많은 장애물들이 존재합니다.
