@@ -296,6 +296,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -1177,9 +1185,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Punag Run"
+        "ProductName" = "8:Puang Run"
         "ProductCode" = "8:{73DAA7C3-0ED6-47DD-A7C8-85573142E47A}"
-        "PackageCode" = "8:{8517B2B7-474D-4768-889D-0BBD1F4A93FC}"
+        "PackageCode" = "8:{46365E7C-3C24-4193-B6A5-A680F2660E47}"
         "UpgradeCode" = "8:{99C093FD-385D-4E91-8875-1127D255CD7E}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
