@@ -117,6 +117,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_80D1734985044955A7D533DDCF6508E0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_8293CEAD66E94AE08B23C27F13EED551"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -259,6 +265,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -275,6 +289,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -622,6 +644,26 @@
             "TargetName" = "8:libssl-1_1.dll"
             "Tag" = "8:"
             "Folder" = "8:_F2085456CD7349F88C948DEFE3D30950"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_80D1734985044955A7D533DDCF6508E0"
+            {
+            "SourcePath" = "8:..\\fInalTeamProject\\Sounds\\bgm.mp3"
+            "TargetName" = "8:bgm.mp3"
+            "Tag" = "8:"
+            "Folder" = "8:_732992CF5F5F42CA9E2A26F846CE68AB"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1074,6 +1116,17 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_732992CF5F5F42CA9E2A26F846CE68AB"
+                    {
+                    "Name" = "8:Sounds"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_BCBEB33709604A3EB60BB979933B835F"
+                        "Folders"
+                        {
+                        }
+                    }
                     "{9EF0B969-E518-4E46-987F-47570745A589}:_E3D8E19D90D042CDAB83DF7CF943FBD1"
                     {
                     "Name" = "8:images"
@@ -1675,7 +1728,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_A191E295E34146A89EC238B01120D270"
             {
-            "SourcePath" = "8:..\\Debug\\fInalTeamProject.exe"
+            "SourcePath" = "8:..\\Release\\fInalTeamProject.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_F2085456CD7349F88C948DEFE3D30950"
