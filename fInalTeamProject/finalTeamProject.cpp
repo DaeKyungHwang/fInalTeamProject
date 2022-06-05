@@ -65,7 +65,8 @@ ObjectID createObject(const char* name, const char* image, SceneID scene, int x,
 //캐릭터가 코인에 부딪혔는지 체크하는 함수.
 //부딪히면 코인이 사라지면서 점수가 5 증가
 void CoinCheck() {
-	for (int j = 0; j < 4; j++) {
+	for (int j = 0; j < 4; j++)
+	{
 		if (x >= ob_x[j] && x < ob_x[j] + 76 && coin_Y[j] > 0) {
 			if (ob_check[j] == 1 && y == 200) {
 				coin_Y[j] = -200;
